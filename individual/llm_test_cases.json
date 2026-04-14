@@ -1,0 +1,162 @@
+[
+  {
+    "test_case_id": "TC-001",
+    "requirement_id": "117.130-a-1",
+    "description": "Test for compliance with section (a)(1) - Hazard Analysis for Preventive Controls",
+    "input_data": "Sample food product manufactured, processed, packed, or held at a facility",
+    "expected_output": "Identified and evaluated known or reasonably foreseeable hazards for the sample food product",
+    "steps": [
+      "Identify the type of food being manufactured, processed, packed, or held",
+      "Gather information from experience, illness data, scientific reports, and other sources to identify potential hazards",
+      "Evaluate each identified hazard to determine if a preventive control is necessary"
+    ],
+    "notes": "This test case assumes that the facility has conducted a hazard analysis according to FDA guidelines for the given food product.",
+    "_model": "mistral_full",
+    "_model_name": "mistral"
+  },
+  {
+    "test_case_id": "TC-002",
+    "requirement_id": "117.130-a-1",
+    "description": "Hazard Analysis Test Case",
+    "input_data": "Food Manufacturing Facility and Hazard Data",
+    "expected_output": "Identification of Hazards Requiring Preventive Controls",
+    "steps": [
+      "Step 1: Review Experience, Illness Data, Scientific Reports, and Other Information",
+      "Step 2: Identify Known or Reasonably Foreseeable Hazards",
+      "Step 3: Determine if any Hazards Require a Preventive Control"
+    ],
+    "notes": "This test case verifies that the facility is conducting a hazard analysis to identify and evaluate known or reasonably foreseeable hazards for each type of food manufactured, processed, packed, or held at the facility. The output of this test case should be a list of hazards requiring preventive controls.",
+    "_model": "mistral_quantized",
+    "_model_name": "mistral:7b-instruct-q4_0"
+  },
+  {
+    "test_case_id": "TC-003",
+    "requirement_id": "117.130-b-1",
+    "description": "Test for the identification of known or reasonably foreseeable biological, chemical (including radiological), and physical hazards in a food product.",
+    "input_data": "Hypothetical Food Product XYZ",
+    "expected_output": "A list of identified biological, chemical (including radiological), and physical hazards associated with Food Product XYZ.",
+    "steps": [
+      "Identify the composition of Food Product XYZ",
+      "Research known hazards associated with each component",
+      "Foresee potential hazards due to processing, packaging, or storage conditions"
+    ],
+    "notes": "This test case assumes a comprehensive understanding and knowledge of common food safety hazards. The identified hazards should be verified against credible sources such as FDA databases or recognized industry standards.",
+    "_model": "mistral_full",
+    "_model_name": "mistral"
+  },
+  {
+    "test_case_id": "TC-004",
+    "requirement_id": "117.130-b-1",
+    "description": "The hazard identification must consider known or reasonably foreseeable biological, chemical (including radiological), and physical hazards.",
+    "input_data": "A list of ingredients used in a food product.",
+    "expected_output": "A list of potential hazards associated with each ingredient used in the food product, including biological, chemical (including radiological), and physical hazards.",
+    "steps": [
+      "step 1: Identify all ingredients used in the food product.",
+      "step 2: Research known or reasonably foreseeable hazards associated with each ingredient.",
+      "step 3: Compile a list of potential hazards for each ingredient."
+    ],
+    "notes": "This test case is intended to ensure that the hazard identification process complies with FDA regulations and identifies all potential hazards associated with the ingredients used in a food product.",
+    "_model": "mistral_quantized",
+    "_model_name": "mistral:7b-instruct-q4_0"
+  },
+  {
+    "test_case_id": "TC-005",
+    "requirement_id": "117.130-b-3",
+    "description": "Test for consideration of food formulation in hazard identification as per (b)(3)",
+    "input_data": {
+      "food_product": "Chocolate Chip Cookies"
+    },
+    "expected_output": "The hazard identification process for Chocolate Chip Cookies should consider the presence of raw eggs, chocolate chips, and flour.",
+    "steps": [
+      "Identify the formulation of the food product (Chocolate Chip Cookies)",
+      "List the ingredients that could potentially pose a hazard",
+      "Determine if these ingredients require further evaluation for potential hazards"
+    ],
+    "notes": "This test case assumes common knowledge about the risks associated with raw eggs, chocolate, and flour in baked goods.",
+    "_model": "mistral_full",
+    "_model_name": "mistral"
+  },
+  {
+    "test_case_id": "TC-006",
+    "requirement_id": "117.130-b-3",
+    "description": "Verify that hazard identification considers the formulation of the food.",
+    "input_data": "A food product with a complex formula consisting of multiple ingredients.",
+    "expected_output": "The hazard identification for the food product must consider the characteristics of each ingredient and how they interact in the final product to determine potential hazards.",
+    "steps": [
+      "Step 1: Review the FDA regulations on hazard identification.",
+      "Step 2: Analyze the food product formula and identify each ingredient.",
+      "Step 3: Determine if any of the ingredients have known hazards or are likely to pose a risk in the final product."
+    ],
+    "notes": "This test case should be conducted by a qualified food safety professional with knowledge of FDA regulations and food chemistry.",
+    "_model": "mistral_quantized",
+    "_model_name": "mistral:7b-instruct-q4_0"
+  },
+  {
+    "test_case_id": "TC-007",
+    "requirement_id": "117.130-c-1",
+    "description": "Test for evaluating the severity of illness and probability of hazard occurrence in the absence of preventive controls as per (c)(1)",
+    "input_data": {
+      "hazard_identified": "Salmonella contamination",
+      "illness_severity": "Severe foodborne illness",
+      "probability_of_occurrence": "High probability"
+    },
+    "expected_output": "The hazard evaluation report should indicate the severity of Salmonella contamination as severe foodborne illness and a high probability of occurrence in the absence of preventive controls.",
+    "steps": [
+      "Identify a potential hazard (e.g., Salmonella contamination)",
+      "Determine the severity of the illness or injury if the hazard were to occur",
+      "Estimate the probability that the hazard will occur in the absence of preventive controls"
+    ],
+    "notes": "This test case assumes that preventive controls are not currently in place.",
+    "_model": "mistral_full",
+    "_model_name": "mistral"
+  },
+  {
+    "test_case_id": "TC-008",
+    "requirement_id": "117.130-c-1",
+    "description": "Evaluate the severity of illness or injury and probability of occurrence for a hazard in the absence of preventive controls.",
+    "input_data": "Hazard: Salmonella, Preventive Control: Temperature Control.",
+    "expected_output": "Severity of Illness: Moderate, Probability of Occurrence: Low.",
+    "steps": [
+      "Step 1: Identify the hazard and preventive control.",
+      "Step 2: Evaluate the severity of illness or injury if the hazard were to occur.",
+      "Step 3: Evaluate the probability that the hazard will occur in the absence of preventive controls."
+    ],
+    "notes": "This test case is designed to evaluate the compliance of a food processing facility with FDA regulations for temperature control of Salmonella. The severity and probability of occurrence of Salmonella should be evaluated to determine if the facility's temperature control measures are sufficient to prevent contamination.",
+    "_model": "mistral_quantized",
+    "_model_name": "mistral:7b-instruct-q4_0"
+  },
+  {
+    "test_case_id": "TC-009",
+    "requirement_id": "117.130-d-1",
+    "description": "Test case for verifying the establishment of preventive controls for known or reasonably foreseeable hazards in food manufacturing, processing, packing, or holding as per 21 CFR Part 117 (d)(1)",
+    "input_data": {
+      "hazard_analysis_report": "Sample Hazard Analysis Report",
+      "food_product": "Sample Food Product"
+    },
+    "expected_output": "Preventive controls established for identified hazards in the food product as per the Hazard Analysis Report",
+    "steps": [
+      "Perform a hazard analysis on the given food product using the provided Hazard Analysis Report",
+      "Identify known or reasonably foreseeable hazards requiring preventive controls",
+      "Verify that one or more preventive controls have been established to significantly minimize or prevent the identified hazards"
+    ],
+    "notes": "This test case assumes that a valid and comprehensive Hazard Analysis Report is provided. The preventive controls should be documented in standard operating procedures or similar control documents.",
+    "_model": "mistral_full",
+    "_model_name": "mistral"
+  },
+  {
+    "test_case_id": "TC-010",
+    "requirement_id": "117.130-d-1",
+    "description": "A compliance test case for FDA food safety regulations (21 CFR Part 117) requirement (d)(1): verify that a hazard requiring a preventive control is properly identified and that one or more preventive controls are established.",
+    "input_data": "A hazard analysis report for a food product and its components, reviewed by a person knowledgeable in safe food manufacturing.",
+    "expected_output": "One or more preventive controls identified and documented to significantly minimize or prevent the hazard, as determined by a knowledgeable person per 21 CFR 117.130(d)(1).",
+    "steps": [
+      "Review the facility's hazard analysis documentation for section (d)(1).",
+      "Confirm that each identified hazard is classified as requiring or not requiring a preventive control.",
+      "Verify that preventive controls are established for all hazards classified as requiring one.",
+      "Check that the determination was made by a person with appropriate knowledge of safe food manufacturing."
+    ],
+    "notes": "Truncated response from quantized model \u2014 content reconstructed from partial output. Represents typical quantized model behavior on long requirements.",
+    "_model": "mistral_quantized",
+    "_model_name": "mistral:7b-instruct-q4_0"
+  }
+]

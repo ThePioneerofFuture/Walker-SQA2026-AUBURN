@@ -1,0 +1,142 @@
+[
+  {
+    "test_case_id": "TC-001",
+    "requirement_id": "117.130-a-1",
+    "description": "Verify compliance with 21 CFR 117.130 (a)(1): You must conduct a hazard analysis to identify and evaluate, based on experience, illness ",
+    "input_data": "A food manufacturing facility preparing to document its food safety plan for the first time.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (a)(1). Specifically: You must conduct a hazard analysis to identify and evaluate, based on experience, illness data, scientific reports, and ",
+    "steps": [
+      "Request the facility's food safety documentation related to (a)(1).",
+      "Confirm the document explicitly addresses: You must conduct a hazard analysis to identify and evaluate, based on ...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-a. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-002",
+    "requirement_id": "117.130-a-2",
+    "description": "Verify compliance with 21 CFR 117.130 (a)(2): The hazard analysis must be written.",
+    "input_data": "A food manufacturing facility preparing to document its food safety plan for the first time.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (a)(2). Specifically: The hazard analysis must be written.",
+    "steps": [
+      "Request the facility's food safety documentation related to (a)(2).",
+      "Confirm the document explicitly addresses: The hazard analysis must be written....",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-a. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-003",
+    "requirement_id": "117.130-b-1",
+    "description": "Verify compliance with 21 CFR 117.130 (b)(1): The hazard identification must consider known or reasonably foreseeable biological, chemic",
+    "input_data": "A facility receiving a new raw ingredient with unknown hazard history.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (b)(1). Specifically: The hazard identification must consider known or reasonably foreseeable biological, chemical (including radiological), a",
+    "steps": [
+      "Request the facility's food safety documentation related to (b)(1).",
+      "Confirm the document explicitly addresses: The hazard identification must consider known or reasonably foreseeabl...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-b. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-004",
+    "requirement_id": "117.130-b-3",
+    "description": "Verify compliance with 21 CFR 117.130 (b)(3): The hazard identification must consider the characteristics of the food, including the for",
+    "input_data": "A facility receiving a new raw ingredient with unknown hazard history.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (b)(3). Specifically: The hazard identification must consider the characteristics of the food, including the formulation of the food.",
+    "steps": [
+      "Request the facility's food safety documentation related to (b)(3).",
+      "Confirm the document explicitly addresses: The hazard identification must consider the characteristics of the foo...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-b. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-005",
+    "requirement_id": "117.130-b-5",
+    "description": "Verify compliance with 21 CFR 117.130 (b)(5): The hazard identification must consider the intended or reasonably foreseeable use of the ",
+    "input_data": "A facility receiving a new raw ingredient with unknown hazard history.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (b)(5). Specifically: The hazard identification must consider the intended or reasonably foreseeable use of the food, including whether the fo",
+    "steps": [
+      "Request the facility's food safety documentation related to (b)(5).",
+      "Confirm the document explicitly addresses: The hazard identification must consider the intended or reasonably for...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-b. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-006",
+    "requirement_id": "117.130-c-1",
+    "description": "Verify compliance with 21 CFR 117.130 (c)(1): The hazard evaluation must include an evaluation of the severity of the illness or injury ",
+    "input_data": "A quality auditor evaluating the hazard evaluation records of an existing food process.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (c)(1). Specifically: The hazard evaluation must include an evaluation of the severity of the illness or injury if the hazard were to occur an",
+    "steps": [
+      "Request the facility's food safety documentation related to (c)(1).",
+      "Confirm the document explicitly addresses: The hazard evaluation must include an evaluation of the severity of th...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-c. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-007",
+    "requirement_id": "117.130-c-3",
+    "description": "Verify compliance with 21 CFR 117.130 (c)(3): The hazard evaluation must consider the nature of the hazard, including whether it is an a",
+    "input_data": "A quality auditor evaluating the hazard evaluation records of an existing food process.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (c)(3). Specifically: The hazard evaluation must consider the nature of the hazard, including whether it is an allergen, pathogen, chemical co",
+    "steps": [
+      "Request the facility's food safety documentation related to (c)(3).",
+      "Confirm the document explicitly addresses: The hazard evaluation must consider the nature of the hazard, includin...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-c. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-008",
+    "requirement_id": "117.130-d-1",
+    "description": "Verify compliance with 21 CFR 117.130 (d)(1): A hazard requiring a preventive control is a known or reasonably foreseeable hazard for wh",
+    "input_data": "A regulatory inspector reviewing whether preventive controls have been established for identified hazards.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (d)(1). Specifically: A hazard requiring a preventive control is a known or reasonably foreseeable hazard for which a person knowledgeable abo",
+    "steps": [
+      "Request the facility's food safety documentation related to (d)(1).",
+      "Confirm the document explicitly addresses: A hazard requiring a preventive control is a known or reasonably fores...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-d. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-009",
+    "requirement_id": "117.130-d-2",
+    "description": "Verify compliance with 21 CFR 117.130 (d)(2): Hazards that are reasonably likely to occur are hazards requiring a preventive control whe",
+    "input_data": "A regulatory inspector reviewing whether preventive controls have been established for identified hazards.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (d)(2). Specifically: Hazards that are reasonably likely to occur are hazards requiring a preventive control when a knowledgeable person manuf",
+    "steps": [
+      "Request the facility's food safety documentation related to (d)(2).",
+      "Confirm the document explicitly addresses: Hazards that are reasonably likely to occur are hazards requiring a pr...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-d. Non-compliance may indicate a systemic gap in the food safety plan."
+  },
+  {
+    "test_case_id": "TC-010",
+    "requirement_id": "117.130-d-3",
+    "description": "Verify compliance with 21 CFR 117.130 (d)(3): A hazard requiring a preventive control includes a biological hazard such as a pathogen, a",
+    "input_data": "A regulatory inspector reviewing whether preventive controls have been established for identified hazards.",
+    "expected_output": "The facility has written documentation demonstrating compliance with (d)(3). Specifically: A hazard requiring a preventive control includes a biological hazard such as a pathogen, a chemical hazard such as a pes",
+    "steps": [
+      "Request the facility's food safety documentation related to (d)(3).",
+      "Confirm the document explicitly addresses: A hazard requiring a preventive control includes a biological hazard s...",
+      "Verify the document is current, signed by a responsible party, and accessible on-site.",
+      "Check that the documented process was followed during the most recent production run."
+    ],
+    "notes": "This is an atomic rule under parent section 117.130-d. Non-compliance may indicate a systemic gap in the food safety plan."
+  }
+]

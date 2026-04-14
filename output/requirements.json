@@ -1,0 +1,107 @@
+[
+  {
+    "id": "117.130-a-1",
+    "parent": "117.130-a",
+    "section": "(a)(1)",
+    "is_atomic": true,
+    "text": "You must conduct a hazard analysis to identify and evaluate, based on experience, illness data, scientific reports, and other information, known or reasonably foreseeable hazards for each type of food manufactured, processed, packed, or held at your facility to determine whether there are any hazards requiring a preventive control."
+  },
+  {
+    "id": "117.130-a-2",
+    "parent": "117.130-a",
+    "section": "(a)(2)",
+    "is_atomic": true,
+    "text": "The hazard analysis must be written."
+  },
+  {
+    "id": "117.130-a-3",
+    "parent": "117.130-a",
+    "section": "(a)(3)",
+    "is_atomic": true,
+    "text": "The hazard analysis must be reviewed and updated when necessary to reflect changes in the food, facility, or production process that may affect food safety."
+  },
+  {
+    "id": "117.130-b-1",
+    "parent": "117.130-b",
+    "section": "(b)(1)",
+    "is_atomic": true,
+    "text": "The hazard identification must consider known or reasonably foreseeable biological, chemical (including radiological), and physical hazards."
+  },
+  {
+    "id": "117.130-b-2",
+    "parent": "117.130-b",
+    "section": "(b)(2)",
+    "is_atomic": true,
+    "text": "These hazards can be introduced within the facility, including hazards that occur naturally, those that may be unintentionally introduced, and those that may be intentionally introduced for the purposes of economic gain."
+  },
+  {
+    "id": "117.130-b-3",
+    "parent": "117.130-b",
+    "section": "(b)(3)",
+    "is_atomic": true,
+    "text": "The hazard identification must consider the characteristics of the food, including the formulation of the food."
+  },
+  {
+    "id": "117.130-b-4",
+    "parent": "117.130-b",
+    "section": "(b)(4)",
+    "is_atomic": true,
+    "text": "The hazard identification must consider the conditions, duration, and method of storage of the food."
+  },
+  {
+    "id": "117.130-b-5",
+    "parent": "117.130-b",
+    "section": "(b)(5)",
+    "is_atomic": true,
+    "text": "The hazard identification must consider the intended or reasonably foreseeable use of the food, including whether the food is for a vulnerable population."
+  },
+  {
+    "id": "117.130-c-1",
+    "parent": "117.130-c",
+    "section": "(c)(1)",
+    "is_atomic": true,
+    "text": "The hazard evaluation must include an evaluation of the severity of the illness or injury if the hazard were to occur and the probability that the hazard will occur in the absence of preventive controls."
+  },
+  {
+    "id": "117.130-c-2",
+    "parent": "117.130-c",
+    "section": "(c)(2)",
+    "is_atomic": true,
+    "text": "The hazard evaluation must consider the effect of the following on the safety of the finished food for the intended consumer: the formulation of the food, the condition, function, and design of the facility and equipment, raw materials and other ingredients, transportation practices, manufacturing or processing procedures, packaging activities and labeling activities."
+  },
+  {
+    "id": "117.130-c-3",
+    "parent": "117.130-c",
+    "section": "(c)(3)",
+    "is_atomic": true,
+    "text": "The hazard evaluation must consider the nature of the hazard, including whether it is an allergen, pathogen, chemical contaminant, or physical contaminant."
+  },
+  {
+    "id": "117.130-c-4",
+    "parent": "117.130-c",
+    "section": "(c)(4)",
+    "is_atomic": true,
+    "text": "The outcome of the hazard evaluation is the determination of whether the hazard is a hazard requiring a preventive control."
+  },
+  {
+    "id": "117.130-d-1",
+    "parent": "117.130-d",
+    "section": "(d)(1)",
+    "is_atomic": true,
+    "text": "A hazard requiring a preventive control is a known or reasonably foreseeable hazard for which a person knowledgeable about the safe manufacturing, processing, packing, or holding of food would, based on the outcome of a hazard analysis, establish one or more preventive controls to significantly minimize or prevent the hazard in a food and components to manage those controls."
+  },
+  {
+    "id": "117.130-d-2",
+    "parent": "117.130-d",
+    "section": "(d)(2)",
+    "is_atomic": true,
+    "text": "Hazards that are reasonably likely to occur are hazards requiring a preventive control when a knowledgeable person manufacturing food in the same manner would establish preventive controls."
+  },
+  {
+    "id": "117.130-d-3",
+    "parent": "117.130-d",
+    "section": "(d)(3)",
+    "is_atomic": true,
+    "text": "A hazard requiring a preventive control includes a biological hazard such as a pathogen, a chemical hazard such as a pesticide, a radiological hazard, and a physical hazard such as glass or metal fragments."
+  }
+]

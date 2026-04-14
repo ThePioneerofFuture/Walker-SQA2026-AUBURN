@@ -1,0 +1,191 @@
+{
+  "117.130-a-1": {
+    "mistral_full": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "hazard",
+        "analysis"
+      ],
+      "description": "Test for compliance with section (a)(1) - Hazard Analysis for Preventive Controls",
+      "input_data": "Sample food product manufactured, processed, packed, or held at a facility",
+      "expected_output": "Identified and evaluated known or reasonably foreseeable hazards for the sample "
+    },
+    "mistral_quantized": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "hazard",
+        "analysis"
+      ],
+      "description": "Hazard Analysis Test Case",
+      "input_data": "Food Manufacturing Facility and Hazard Data",
+      "expected_output": "Identification of Hazards Requiring Preventive Controls"
+    }
+  },
+  "117.130-b-1": {
+    "mistral_full": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "biological",
+        "chemical",
+        "physical",
+        "hazard"
+      ],
+      "description": "Test for the identification of known or reasonably foreseeable biological, chemical (inclu",
+      "input_data": "Hypothetical Food Product XYZ",
+      "expected_output": "A list of identified biological, chemical (including radiological), and physical"
+    },
+    "mistral_quantized": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "biological",
+        "chemical",
+        "physical",
+        "hazard"
+      ],
+      "description": "The hazard identification must consider known or reasonably foreseeable biological, chemic",
+      "input_data": "A list of ingredients used in a food product.",
+      "expected_output": "A list of potential hazards associated with each ingredient used in the food pro"
+    }
+  },
+  "117.130-b-3": {
+    "mistral_full": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "formulation",
+        "food"
+      ],
+      "description": "Test for consideration of food formulation in hazard identification as per (b)(3)",
+      "input_data": "{'food_product': 'Chocolate Chip Cookies'}",
+      "expected_output": "The hazard identification process for Chocolate Chip Cookies should consider the"
+    },
+    "mistral_quantized": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "formulation",
+        "food"
+      ],
+      "description": "Verify that hazard identification considers the formulation of the food.",
+      "input_data": "A food product with a complex formula consisting of multiple ingredients.",
+      "expected_output": "The hazard identification for the food product must consider the characteristics"
+    }
+  },
+  "117.130-c-1": {
+    "mistral_full": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "severity",
+        "probability",
+        "illness"
+      ],
+      "description": "Test for evaluating the severity of illness and probability of hazard occurrence in the ab",
+      "input_data": "{'hazard_identified': 'Salmonella contamination', 'illness_severity': 'Severe fo",
+      "expected_output": "The hazard evaluation report should indicate the severity of Salmonella contamin"
+    },
+    "mistral_quantized": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "severity",
+        "probability",
+        "illness",
+        "injury"
+      ],
+      "description": "Evaluate the severity of illness or injury and probability of occurrence for a hazard in t",
+      "input_data": "Hazard: Salmonella, Preventive Control: Temperature Control.",
+      "expected_output": "Severity of Illness: Moderate, Probability of Occurrence: Low."
+    }
+  },
+  "117.130-d-1": {
+    "mistral_full": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "preventive",
+        "control",
+        "prevent"
+      ],
+      "description": "Test case for verifying the establishment of preventive controls for known or reasonably f",
+      "input_data": "{'hazard_analysis_report': 'Sample Hazard Analysis Report', 'food_product': 'Sam",
+      "expected_output": "Preventive controls established for identified hazards in the food product as pe"
+    },
+    "mistral_quantized": {
+      "coverage": true,
+      "completeness": true,
+      "correctness": true,
+      "missing_fields": [],
+      "optional_fields": [
+        "steps",
+        "notes"
+      ],
+      "keyword_hits": [
+        "preventive",
+        "control",
+        "prevent"
+      ],
+      "description": "A compliance test case for FDA food safety regulations (21 CFR Part 117) requirement (d)(1",
+      "input_data": "A hazard analysis report for a food product and its components, reviewed by a pe",
+      "expected_output": "One or more preventive controls identified and documented to significantly minim"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+name: CFR V&V Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Parse CFR markdown
+        run: python scripts/parse_cfr.py
+
+      - name: Generate test cases
+        run: python scripts/generate_test_cases.py
+
+      - name: Run V&V verification
+        run: python scripts/verify.py
+
+      - name: Run V&V validation
+        run: python scripts/validate.py
+
+      - name: Log CI result
+        if: always()
+        run: |
+          python -c "
+          import json, datetime, os
+          os.makedirs('output', exist_ok=True)
+          status = '${{ job.status }}'
+          entry = {
+              'timestamp': datetime.datetime.utcnow().isoformat() + 'Z',
+              'event': 'CI_BUILD_' + status.upper(),
+              'detail': 'GitHub Actions run ${{ github.run_id }} on ${{ github.sha }}'
+          }
+          log = []
+          if os.path.exists('output/forensick_log.json'):
+              with open('output/forensick_log.json') as f:
+                  log = json.load(f)
+          log.append(entry)
+          with open('output/forensick_log.json', 'w') as f:
+              json.dump(log, f, indent=2)
+          print('Forensick CI event logged:', status)
+          "
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cfr-outputs
+          path: |
+            output/requirements.json
+            output/expected_structure.json
+            output/test_cases.json
+            output/forensick_log.json

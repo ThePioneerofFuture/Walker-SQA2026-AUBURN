@@ -1,0 +1,112 @@
+[
+  {
+    "timestamp": "2026-04-23T14:44:08.796966Z",
+    "event": "PIPELINE_START",
+    "detail": "parse_cfr.py started"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:08.800383Z",
+    "event": "PARSE_COMPLETE",
+    "detail": "Parsed 15 atomic requirements from input/21_CFR_117.130.md"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:16.716213Z",
+    "event": "TEST_CASES_GENERATED",
+    "detail": "Generated 10 rule-based test cases"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:18.885058Z",
+    "event": "VERIFICATION_START",
+    "detail": "verify.py started"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:18.897137Z",
+    "event": "VERIFICATION_PASSED",
+    "detail": "All schema checks passed"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:18.987595Z",
+    "event": "VALIDATION_START",
+    "detail": "validate.py started"
+  },
+  {
+    "timestamp": "2026-04-23T14:44:18.989367Z",
+    "event": "VALIDATION_PASSED",
+    "detail": "All validation checks passed"
+  },
+  {
+    "timestamp": "2026-04-23T14:50:55.673230Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_full, req=117.130-a-1, tc=TC-001, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:19.121464Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-a-1, tc=TC-002, status=ERROR"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:27.495927Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_full, req=117.130-b-1, tc=TC-003, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:34.054272Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-b-1, tc=TC-004, status=ERROR"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:42.273225Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_full, req=117.130-b-3, tc=TC-005, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:48.661391Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-b-3, tc=TC-006, status=ERROR"
+  },
+  {
+    "timestamp": "2026-04-23T14:51:58.826508Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_full, req=117.130-c-1, tc=TC-007, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:52:07.167781Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-c-1, tc=TC-008, status=ERROR"
+  },
+  {
+    "timestamp": "2026-04-23T14:52:18.237742Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_full, req=117.130-d-1, tc=TC-009, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:52:26.883956Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-d-1, tc=TC-010, status=ERROR"
+  },
+  {
+    "timestamp": "2026-04-23T14:53:49.576072Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-a-1, tc=TC-002, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:53:57.160761Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-b-1, tc=TC-004, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:54:04.427895Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-b-3, tc=TC-006, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:54:13.404268Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-c-1, tc=TC-008, status=OK"
+  },
+  {
+    "timestamp": "2026-04-23T14:54:21.086539Z",
+    "event": "LLM_TEST_GENERATED",
+    "detail": "model=mistral_quantized, req=117.130-d-1, tc=TC-010, status=ERROR"
+  }
+]
